@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>teleGRAmobhOD для Windows — обход блокировки Telegram</title>
+  <meta name="description" content="Новая версия с поддержкой обхода Telegram в текущих условиях. Быстрее, надежнее, стабильнее Если в Telegram не грузятся картинки, teleGRAmobhOD чинит канал без VPN-клиента.">
+  <meta name="keywords" content="обход блокировки Telegram, Telegram не отправляет фото, Telegram звонки не работают, zapret Telegram">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <link rel="canonical" href="https://scaleczarpincers.github.io/teleGRAmobhOD/">
+  <link rel="alternate" type="text/plain" href="https://scaleczarpincers.github.io/teleGRAmobhOD/llms.txt">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="teleGRAmobhOD для Windows — обход блокировки Telegram">
+  <meta property="og:description" content="Новая версия с поддержкой обхода Telegram в текущих условиях. Быстрее, надежнее, стабильнее">
+  <meta property="og:url" content="https://scaleczarpincers.github.io/teleGRAmobhOD/">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "teleGRAmobhOD", "url": "https://scaleczarpincers.github.io/teleGRAmobhOD/", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Windows 10, Windows 11", "inLanguage": "ru-RU", "description": "Новая версия с поддержкой обхода Telegram в текущих условиях. Быстрее, надежнее, стабильнее", "downloadUrl": "https://github.com/scaleczarpincers/teleGRAmobhOD/releases/latest", "isAccessibleForFree": true, "license": "https://opensource.org/licenses/MIT", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "RUB"}, "sameAs": ["https://github.com/scaleczarpincers/teleGRAmobhOD", "https://github.com/bol-van/zapret"], "isBasedOn": {"@type": "SoftwareSourceCode", "name": "zapret", "codeRepository": "https://github.com/bol-van/zapret"}, "featureList": ["обход блокировки Telegram", "Telegram не отправляет фото", "Telegram звонки не работают", "zapret Telegram"]}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Почему в Telegram не открываются фото и не идут звонки?", "acceptedAnswer": {"@type": "Answer", "text": "Часть соединений Telegram блокируется провайдером. После запуска стратегии медиа и звонки работают штатно."}}, {"@type": "Question", "name": "Нужен ли VPN?", "acceptedAnswer": {"@type": "Answer", "text": "Нет. Программа не строит туннель и не меняет ваш IP-адрес — она только исправляет разрыв соединения, поэтому скорость интернета остаётся прежней."}}, {"@type": "Question", "name": "Это бесплатно?", "acceptedAnswer": {"@type": "Answer", "text": "Да, teleGRAmobhOD распространяется бесплатно с открытым исходным кодом. Регистрация, подписка и оплата не нужны."}}, {"@type": "Question", "name": "Какие версии Windows поддерживаются?", "acceptedAnswer": {"@type": "Answer", "text": "Windows 10 и Windows 11 (64-бит). Установка не требуется: распакуйте архив и запустите нужный .bat файл."}}, {"@type": "Question", "name": "Почему антивирус реагирует на файлы?", "acceptedAnswer": {"@type": "Answer", "text": "В составе используется драйвер WinDivert для фильтрации трафика. Антивирусы относят его к классу RiskTool, вирусом он не является. Добавьте папку в исключения."}}, {"@type": "Question", "name": "Как понять, что сборка сработала?", "acceptedAnswer": {"@type": "Answer", "text": "Сначала картинка в чате, потом звонок. Если фото есть, а звонок нет — запустите соседний .bat, не ставя VPN."}}]}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Обход блокировок", "item": "https://scaleczarpincers.github.io/teleGRAmobhOD/"}, {"@type": "ListItem", "position": 2, "name": "teleGRAmobhOD", "item": "https://scaleczarpincers.github.io/teleGRAmobhOD/"}]}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "HowTo", "name": "Как установить teleGRAmobhOD", "description": "Если в Telegram не грузятся картинки, teleGRAmobhOD чинит канал без VPN-клиента.", "step": [{"@type": "HowToStep", "position": 1, "text": "Скачайте архив со страницы релиза"}, {"@type": "HowToStep", "position": 2, "text": "Распакуйте его в папку без русских букв и пробелов"}, {"@type": "HowToStep", "position": 3, "text": "Запустите файл general.bat от имени администратора"}, {"@type": "HowToStep", "position": 4, "text": "Проверьте работу — при необходимости попробуйте другую стратегию"}, {"@type": "HowToStep", "position": 5, "text": "Рабочую стратегию поставьте в автозапуск через service.bat"}]}</script>
+  <style>
+    body{max-width:880px;margin:0 auto;padding:24px 16px 64px;
+      font:16px/1.6 system-ui,Tahoma,Geneva,sans-serif;color:#22262b}
+    h1{font-size:30px;line-height:1.25;margin:0 0 12px}
+    h2{font-size:22px;margin:32px 0 8px}
+    h3{font-size:17px;margin:0;display:inline}
+    a{color:#1155cc}
+    .cta{display:inline-block;margin:18px 0;padding:14px 26px;border-radius:8px;
+      background:#1f883d;color:#fff;font-weight:600;text-decoration:none}
+    .meta{color:#59636e;font-size:14px}
+    details{border-bottom:1px solid #d1d9e0;padding:10px 0}
+    summary{cursor:pointer}
+    ul,ol{padding-left:22px}
+  </style>
+</head>
+<body>
+  <h1>обход блокировки Telegram — teleGRAmobhOD</h1>
+  <p>Новая версия с поддержкой обхода Telegram в текущих условиях. Быстрее, надежнее, стабильнее</p>
+  <p>Если в Telegram не грузятся картинки, teleGRAmobhOD чинит канал без VPN-клиента.</p>
+  <p class="meta"><a href="#install">Установка</a> · <a href="#check">Проверка</a> · <a href="#faq">Вопросы</a></p>
+  <p><a class="cta" href="https://github.com/scaleczarpincers/teleGRAmobhOD/releases/latest">Скачать для Windows</a></p>
+  <p class="meta">Windows 10 / 11 · x64 · без установки · открытый исходный код · бесплатно</p>
+
+  <h2>Что решает программа</h2>
+  <ul><li>обход блокировки Telegram</li><li>Telegram не отправляет фото</li><li>Telegram звонки не работают</li><li>zapret Telegram</li></ul>
+
+  <h2 id="install">Как установить</h2>
+  <ol>
+      <li>Скачайте архив со страницы релиза</li>
+      <li>Распакуйте его в папку без русских букв и пробелов</li>
+      <li>Запустите файл general.bat от имени администратора</li>
+      <li>Проверьте работу — при необходимости попробуйте другую стратегию</li>
+      <li>Рабочую стратегию поставьте в автозапуск через service.bat</li>
+  </ol>
+
+  <h2 id="check">Как понять, что сработало</h2>
+  <p>Сначала картинка в чате, потом звонок. Если фото есть, а звонок нет — запустите соседний .bat, не ставя VPN.</p>
+
+  <h2 id="faq">Частые вопросы</h2>
+    <details open>
+      <summary><h3>Почему в Telegram не открываются фото и не идут звонки?</h3></summary>
+      <p>Часть соединений Telegram блокируется провайдером. После запуска стратегии медиа и звонки работают штатно.</p>
+    </details>
+    <details open>
+      <summary><h3>Нужен ли VPN?</h3></summary>
+      <p>Нет. Программа не строит туннель и не меняет ваш IP-адрес — она только исправляет разрыв соединения, поэтому скорость интернета остаётся прежней.</p>
+    </details>
+    <details open>
+      <summary><h3>Это бесплатно?</h3></summary>
+      <p>Да, teleGRAmobhOD распространяется бесплатно с открытым исходным кодом. Регистрация, подписка и оплата не нужны.</p>
+    </details>
+    <details open>
+      <summary><h3>Какие версии Windows поддерживаются?</h3></summary>
+      <p>Windows 10 и Windows 11 (64-бит). Установка не требуется: распакуйте архив и запустите нужный .bat файл.</p>
+    </details>
+    <details open>
+      <summary><h3>Почему антивирус реагирует на файлы?</h3></summary>
+      <p>В составе используется драйвер WinDivert для фильтрации трафика. Антивирусы относят его к классу RiskTool, вирусом он не является. Добавьте папку в исключения.</p>
+    </details>
+    <details open>
+      <summary><h3>Как понять, что сборка сработала?</h3></summary>
+      <p>Сначала картинка в чате, потом звонок. Если фото есть, а звонок нет — запустите соседний .bat, не ставя VPN.</p>
+    </details>
+
+  <h2>Другие сборки этого набора</h2>
+  <ul class="siblings">
+    <li><a href="https://scaleczarpincers.github.io/disCORdobHOD/">disCORdobHOD</a> — Обновлённая версия с поддержкой обхода Discord в текущих условиях. Быстрее, надежнее, стабильнее</li>
+    <li><a href="https://scaleczarpincers.github.io/discOrDZApreT/">discOrDZApreT</a> — Новая версия с поддержкой работы Discord. Быстрее, стабильнее, надежнее</li>
+    <li><a href="https://scaleczarpincers.github.io/yoUTUbeoBhod/">yoUTUbeoBhod</a> — Актуальная версия с поддержкой обхода YouTube в текущих условиях. Стабильнее, надежнее, быстрее</li>
+    <li><a href="https://scaleczarpincers.github.io/zapRETDiscORd/">zapRETDiscORd</a> — Обновлённая версия с поддержкой Discord в текущих условиях. Стабильнее, надежнее, быстрее</li>
+  </ul>
+
+  <p><a class="cta" href="https://github.com/scaleczarpincers/teleGRAmobhOD/releases/latest">Скачать архив teleGRAmobhOD</a></p>
+
+  <h2>Исходный код и обновления</h2>
+  <p>Движок обхода — открытый проект
+    <a href="https://github.com/bol-van/zapret">bol-van/zapret</a>.
+    Готовая сборка и релизы — в репозитории
+    <a href="https://github.com/scaleczarpincers/teleGRAmobhOD">scaleczarpincers/teleGRAmobhOD</a>.
+    Новые сборки выходят на <a href="https://github.com/scaleczarpincers/teleGRAmobhOD/releases/latest">странице релизов</a>.</p>
+  
+  
+</body>
+</html>

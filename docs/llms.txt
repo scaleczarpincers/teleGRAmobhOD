@@ -1,0 +1,19 @@
+# teleGRAmobhOD
+
+> Новая версия с поддержкой обхода Telegram в текущих условиях. Быстрее, надежнее, стабильнее
+
+Если в Telegram не грузятся картинки, teleGRAmobhOD чинит канал без VPN-клиента.
+
+## Страницы
+- Сайт: https://scaleczarpincers.github.io/teleGRAmobhOD/
+- Релиз: https://github.com/scaleczarpincers/teleGRAmobhOD/releases/latest
+- Исходный код: https://github.com/scaleczarpincers/teleGRAmobhOD
+- Движок: https://github.com/bol-van/zapret
+
+## Запросы
+- обход блокировки Telegram
+- Telegram не отправляет фото
+- Telegram звонки не работают
+- zapret Telegram
+
+Windows 10/11, без VPN, бесплатно.
